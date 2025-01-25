@@ -1,3 +1,7 @@
+* {
+    border: 5px solid green;
+}
+
 ul {
     background-color: black;
     color: white;
