@@ -1,0 +1,29 @@
+ul {
+    background-color: black;
+    color: white;
+    font-family: "Times New Roman", serif;
+}
+p.text {
+    font-family: "Lucida Handwriting", serif;
+    background-color: darkblue;
+    color: orange;
+    font-style: italic;
+}
+p.link {
+    background-color: #797878;
+}
+a {
+    color: white;
+}
+
+ol {
+    background-color: #54166c65;
+    color: black;
+}
+
+.heading {
+    background-color: orange;
+    color: aqua;
+    text-align: center;
+    font-weight: bold;
+}

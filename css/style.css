@@ -11,4 +11,8 @@
 ul {
     background-color: black;
     color: white;
+    border: red solid 20px;
+}
+a {
+    color: white;
 }
