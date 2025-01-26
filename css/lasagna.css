@@ -2,24 +2,50 @@
     font-family: "Times New Roman", serif;
 }
 
+.list-titles {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    color: #8d3c3c;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.ingredient-title {
+    margin-left: 300px;
+}
+
+.step-title {
+    margin-right: 500px;
+}
+
+.lists-container {
+    display: flex;
+    justify-content: center;
+}
+
+.ingredient-list {
+    height: 900px
+}
+
+.steps-list {
+    height: 900px;
+    display: flex;
+}
 
 ul.ingredients {
-    background-color: orange;
-    color: #8d3c3c;
-    display: inline-block;
-    margin-right: auto;
-    height: 500px;
-    width: 200px;
-    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
-ol {
-    background-color: orange;
-    color: #8d3c3c;
-    display: inline-block;
-    height: 500px;
-    
+ol.steps {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
+
 
 ul.prep {
     background-color: orange;
@@ -34,9 +60,14 @@ p.text {
 }
 p.link {
     background-color: #8d3c3c;
+    display: inline;
 }
 a {
     color: white;
+}
+
+a:hover {
+    color: purple;
 }
 
 
@@ -54,20 +85,6 @@ a {
     margin-bottom: 10px;
 
 }
-
-span.ingreds {
-    display: inline-block;
-    margin: 0 150px 0 140px;
-    text-align: left;
-
-}
-
-
-span.steps {
-    display: inline-block;
-    margin: 0 150px;
-    text-align: right;
-}
 .imdesc p {
     display: inline-block;
     margin: 0 auto;
@@ -81,6 +98,3 @@ img {
     display: inline-block;
 }
 
-.lists {
-    display: inline;
-}
