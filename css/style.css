@@ -1,4 +1,19 @@
 
+.menu-container {
+    display: flex;
+    margin: 0
+}
+
+.menu {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
 ul {
     background-color: rgb(219, 250, 219);
     color: white;
