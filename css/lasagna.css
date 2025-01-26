@@ -1,0 +1,86 @@
+* {
+    font-family: "Times New Roman", serif;
+}
+
+
+ul.ingredients {
+    background-color: orange;
+    color: #8d3c3c;
+    display: inline-block;
+    margin-right: auto;
+    height: 500px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+ol {
+    background-color: orange;
+    color: #8d3c3c;
+    display: inline-block;
+    height: 500px;
+    
+}
+
+ul.prep {
+    background-color: orange;
+    color: #8d3c3c;
+    display: block;
+}
+p.text {
+    font-family: "Lucida Handwriting", serif;
+    background-color: orange;
+    color: #8d3c3c;
+    font-style: italic;
+}
+p.link {
+    background-color: #8d3c3c;
+}
+a {
+    color: white;
+}
+
+
+
+.heading {
+    background-color: orange;
+    color: #8d3c3c;
+    text-align: center;
+    font-weight: bold;
+}
+
+.heading.ingred {
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+span.ingreds {
+    display: inline-block;
+    margin: 0 150px 0 140px;
+    text-align: left;
+
+}
+
+
+span.steps {
+    display: inline-block;
+    margin: 0 150px;
+    text-align: right;
+}
+.imdesc p {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: orange;
+    color: #8d3c3c;
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+}
+
+.lists {
+    display: inline;
+}
